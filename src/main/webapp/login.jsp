@@ -59,7 +59,7 @@ span {
 
 #buttonSignup {
 	border-radius: 20px;
-	border: 2px solid #FFFFFF;
+	border: 3px solid #FFFFFF;
   	background: white;
 	color: #FFFFFF;
 	font-size: 12px;
