@@ -74,7 +74,7 @@ public class RegisterServlet extends HttpServlet {
 						addUser = false;
 						writer.println("<script type=\"text/javascript\">");
 					    writer.println("alert('The e-mail provided is already in use!');");
-					    writer.println("window.location.href = 'http://localhost:8091/Bookee/register.jsp';");
+					    writer.println("window.location.href = 'http://localhost:8091/Bookee-Project/register.jsp';");
 					    writer.println("</script>");
 						break;
 					}	

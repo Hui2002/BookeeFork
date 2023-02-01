@@ -60,13 +60,13 @@ public class AuthenticateServlet extends HttpServlet {
 		
 		if(login) {
 			writer.println("<script type=\"text/javascript\">");
-		    writer.println("window.location.href = 'http://localhost:8091/Bookee/hotels.jsp';");
+		    writer.println("window.location.href = 'http://localhost:8091/Bookee-Project/hotels.jsp';");
 		    writer.println("</script>");
 		}
 		else {
 			writer.println("<script type=\"text/javascript\">");
 		    writer.println("alert('Incorrect email or password');");
-		    writer.println("window.location.href = 'http://localhost:8091/Bookee/login.jsp';");
+		    writer.println("window.location.href = 'http://localhost:8091/Bookee-Project/login.jsp';");
 		    writer.println("</script>");
 		}
 		
