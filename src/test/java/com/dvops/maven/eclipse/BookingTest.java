@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 class BookingTest {
 	
-	Booking book = new Booking("1/3/2023", "4/3/2023" , "Hello@mail.com" , 1000);
+	Booking book = new Booking("1/3/2023", "4/3/2023" , "Hello@mail.com" , 100);
 
 	@BeforeEach
 	void setUp() throws Exception {
@@ -52,7 +52,7 @@ class BookingTest {
 	@Test
 	void testGetHotelId() {
 		//Arrange
-		double expected = 1000;
+		double expected = 100;
 		//Act
 		double actual = book.getHotelId();
 		//Assert
